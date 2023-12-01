@@ -17,7 +17,7 @@ export const fetchRequest = (endPoint, method, body, use_cookies) => {
     // requestOptions.credentials = "include"
   }
 
-  return fetch("http://localhost:5000/" + endPoint, requestOptions).then(
+  return fetch("https://mdiaa.pythonanywhere.com/" + endPoint, requestOptions).then(
     (response) => {
       return response;
     }
